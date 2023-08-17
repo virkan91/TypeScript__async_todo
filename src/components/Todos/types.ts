@@ -8,3 +8,7 @@ export interface ITodoRequest{
     title: string;
     complete: boolean;
 }
+export interface ITodoProps{
+    todo: ITodo;
+    onDelete: () => void;
+}
